@@ -1,43 +1,20 @@
 @charset "utf-8";
-
 /* CSS Document */
-
- 
-
 body {
-
-                background-color: cadetblue;
-
+  background-color: cadetblue;
 }
-
- 
 
 h1 {
-
-                text-align: center;
-
+  text-align: center;
 }
-
- 
 
 .whiteborder {
-
-                background-color: #FFFFFF;
-
-                margin: auto;
-
+  background-color: #ffffff;
+  margin: auto;
 }
 
- 
-
 .info {
-
-                display: flex;
-
-                flex-direction: column;
-
-                justify-content:center;
-
-                
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
