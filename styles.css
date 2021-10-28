@@ -2,18 +2,28 @@ body {
   background-color: olivedrab;
 }
 
-.theBar {
-  /* display: block;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto; */
-  text-align: center;
+ul {
   display: flex;
+  justify-content:space-evenly;
   flex-direction: row;
+  list-style-type: none;
+}
+
+.theBar {
+  border: 5px solid darkgray;
+  padding: 1%;
+  background-color:darkgray
+}
+
+#weedHero {
+  margin: auto;
 }
 
 
-#weedHero {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+.midsection {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+  padding: 1%;
+}
