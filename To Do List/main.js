@@ -1,4 +1,7 @@
-function addTask() {
-    document.getElementById('subButt');
-    return console.log()
+var button = document.getElementById('subButt');
+
+
+button.onclick = function addTask() {
+    
+
 }
